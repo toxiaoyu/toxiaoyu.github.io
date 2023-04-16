@@ -381,7 +381,7 @@ queueMicrotask(() => {
   const init = () => {
     twikoo.init(Object.assign({
       el: '#twikoo-wrap',
-      envId: 'https://abc.qianyu520.top/',
+      envId: 'https://sun3303.top',
       region: '',
       onCommentLoaded: function () {
         anzhiyu.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
@@ -393,7 +393,7 @@ queueMicrotask(() => {
     const countELement = document.getElementById('twikoo-count')
     if(!countELement) return
     twikoo.getCommentsCount({
-      envId: 'https://abc.qianyu520.top/',
+      envId: 'https://sun3303.top',
       region: '',
       urls: [window.location.pathname],
       includeReply: false
@@ -442,7 +442,7 @@ queueMicrotask(() => {
   const getComment = () => {
     const runTwikoo = () => {
       twikoo.getRecentComments({
-        envId: 'https://abc.qianyu520.top/',
+        envId: 'https://sun3303.top',
         region: '',
         pageSize: 6,
         includeReply: true
@@ -534,7 +534,7 @@ document.addEventListener('visibilitychange', function () {
   var commentBarrageConfig = {
     maxBarrage: 1,
     barrageTime: 4000,
-    twikooUrl: "https://abc.qianyu520.top/",
+    twikooUrl: "https://sun3303.top",
     accessToken: "",
     pageUrl: window.location.pathname,
     barrageTimer: [],
